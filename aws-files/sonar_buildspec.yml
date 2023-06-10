@@ -1,7 +1,7 @@
 version: 0.2
 env:
   parameter-store:
-    LOGIN: LOGIN
+    LOGIN: sonartoken
     HOST: HOST
     Organization: Organization
     Project: Project

@@ -1,11 +1,11 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.visualpathit</groupId>
-    <artifactId>vprofile</artifactId>
+    <groupId>devops-org</groupId>
+    <artifactId>vrpofile-maven-repo</artifactId>
     <packaging>war</packaging>
     <version>v2</version>
-    <name>Visualpathit VProfile Webapp</name>
+    <name>VProfile Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
     <timestamp>${maven.build.timestamp}</timestamp>
@@ -213,9 +213,9 @@
     </build>
   <repositories>
       <repository>
-        <id>codeartifact</id>
-        <name>codeartifact</name>
-    <url>https://domainame-accountid.d.codeartifact.regioncode.amazonaws.com/maven/maven-central-store/</url>
+        <id>appvprofile-maven-central-store</id>
+        <name>appvprofile-maven-central-store</name>
+    <url>https://appvprofile-541242469625.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
       </repository>
     </repositories>
 </project>
