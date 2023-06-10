@@ -22,7 +22,7 @@ The CI/CD pipeline consists of the following:
 * An IAM role for CodeBuild to access the repository, CodeArtifact repository, and SonarCloud.
 * An IAM role for CodePipeline to access the repository, CodeArtifact repository, and CodeBuild.
 
-![Alt text](architecture.png "Architecture")
+![Alt text](images/architecture.png "Architecture")
 
 ## Setup Instructions
 
